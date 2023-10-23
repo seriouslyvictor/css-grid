@@ -49,6 +49,7 @@ footer {
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(21.875rem, 1fr));
+    grid-template-rows: repeat(4, 18.75rem);
     grid-auto-rows: 18.75rem;
     grid-auto-flow: dense;
     gap: .3125rem;
