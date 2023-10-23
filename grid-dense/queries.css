@@ -1,0 +1,33 @@
+@media (max-width: 90rem) {
+    .l-portrait {
+        grid-row: span 3;
+    }
+}
+
+
+@media (max-width: 46.25rem) {
+        .l-portrait {
+            grid-row: span 2;
+        }
+}
+
+@media (max-width: 40.625rem) {
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(12.5rem, 0.9fr));
+        justify-content: center;
+    }
+
+    .l-portrait {
+        grid-row: span 2;
+    }
+}
+
+@media (max-width: 31.25rem) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.375rem;
+    }
+}

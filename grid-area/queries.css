@@ -1,0 +1,57 @@
+@media  (max-width: 990px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "n1 n2 n2"
+        "n1 n3 n3"
+        "n1 n3 n3"
+        "n4 n5 n6"
+        "n7 n8 n8"
+        ;
+
+    }
+}
+
+@media  (max-width: 640px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "n1 n3"
+        "n1 n3"
+        "n2 n2"
+        "n4 n5"
+        "n6 n7"
+        "n8 n8"
+        "n8 n8"
+        ;
+
+    }
+    h1 {
+        font-size: 48px;
+    }
+
+}
+
+@media  (max-width: 500px) {
+    main {
+        grid-template-columns: 0.75fr;
+        justify-content: center;
+        grid-template-areas: 
+        "n1"
+        "n1"
+        "n2"
+        "n3"
+        "n4"
+        "n5"
+        "n6"
+        "n7"
+        "n8"
+        ;
+        grid-auto-rows: 200px;
+
+    }
+    h1 {
+        font-size: 28px;
+    }
+
+}
