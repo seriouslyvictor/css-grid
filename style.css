@@ -1,0 +1,95 @@
+:root {
+    --dark-p: #262626;
+    --dark-b: #111;
+    --dark-b2: #1b1b1b;
+
+    --gray: #676767;
+    --white-blueish: #eff6ff;
+
+    --blue-l: #60a5fa;
+    --blue-d: #1d4ed8;
+    --blue-ud: #1e40af;
+
+    --orange-l: #fdba74;
+    --orange-n: #f97316;
+    --orange-d: #c2410c;
+
+    --purple-l: #c084fc;
+
+    --font-p: 'Raleway', sans-serif;
+    --font-c: 'JetBrains Mono', monospace;
+
+    --grad-t: ;
+
+}
+
+body {
+    background-color: var(--dark-p);
+    font-family: var(--font-p);
+    color: var(--white-blueish);
+}
+main {
+    margin-top: 2.5rem;
+    padding: 0rem 2.5rem;
+}
+
+header {
+    background-color: var(--dark-b);
+    color: var(--white-blueish);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3.75rem;
+    font-size: 1.15rem;
+    padding: .625rem 2.5rem;
+    border-bottom: 2px solid var(--gray);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--font-c);
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.light-dark {
+    font-size: 1.25rem;
+    display: flex;
+    gap: .9375rem;
+}
+
+.fa-sun:hover,
+.fa-moon:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    color: var(--orange-l);
+}
+
+
+
+/* ESTILIZAÇÃO DOS LINKS */
+
+a:link {
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+    color: var(--blue-l);
+}
+
+a:visited {
+    color: var(--purple-l);
+}
+
+a:hover {
+    color: var(--blue-d);
+}
+
+a:active {
+    color: var(--blue-ud);
+}
+
+/* FIM DOS LINKS */
